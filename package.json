@@ -1,0 +1,21 @@
+{
+  "name": "@yuri2/utils-general",
+  "version": "1.2.4",
+  "description": "【个人收藏】前后端通用工具函数集",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:yuri2peter/npm-utils-general.git"
+  },
+  "author": "yuri2",
+  "license": "ISC",
+  "dependencies": {
+    "crypto": "^1.0.1",
+    "csv": "^5.3.1",
+    "json2csv": "^4.5.4",
+    "shortid": "^2.2.15"
+  }
+}
