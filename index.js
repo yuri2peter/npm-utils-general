@@ -1,6 +1,7 @@
 const opFrequencyTest = require('./opFrequencyTest');
 const Timer = require('./Timer.js');
 const Base64 = require('./Base64.js');
+const markdownToHtml = require('./markdown/markdownToHtml.js');
 
 async function wait(after = 100) {
   return new Promise(resolve => {
@@ -204,4 +205,5 @@ module.exports = {
   csvToData,
   randomInt,
   objectAssignNoNewField,
+  markdownToHtml,
 };
