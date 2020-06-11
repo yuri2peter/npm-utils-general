@@ -143,6 +143,7 @@ module.exports = `
 
 .markdown-body a {
   background-color: transparent;
+  word-break: break-all;
 }
 
 .markdown-body a:active,
