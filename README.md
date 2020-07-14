@@ -16,7 +16,7 @@ function wait(after = 0)
  * @param {number} interval 检测间隔毫秒数
  * @param {number} timeout 超时毫秒数
  */
-export async function waitUntill(checker, interval = 100, timeout = 10000)
+export async function waitUntil(checker, interval = 100, timeout = 10000)
 
 /**
  * 测试是否为一个低频操作

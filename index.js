@@ -11,7 +11,7 @@ async function wait(after = 100) {
   });
 }
 
-async function waitUntill(checker, interval = 100, timeout = 10000) {
+async function waitUntil(checker, interval = 100, timeout = 10000) {
   return new Promise(async (resolve, reject) => {
     const checked = await checker();
     if (checked) {
@@ -188,7 +188,7 @@ function objectAssignNoNewField(obj1, obj2) {
 
 module.exports = {
   wait,
-  waitUntill,
+  waitUntil,
   isZh,
   opFrequencyTest,
   lock,
